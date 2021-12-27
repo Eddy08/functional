@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import '~material-design-icons/iconfont/material-icons.css';
+:root{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    margin:0 !important;
+    box-sizing: border-box !important;
+    width:100% !important;
+    display: unset !important;
+    overflow-x: hidden;
+}
+body{
+    margin:0 !important;
+    box-sizing: border-box !important;
+    width:100% !important;
+    display: unset !important;
+    overflow: auto !important;
+}
