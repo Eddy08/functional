@@ -1,7 +1,7 @@
 <section>
     <div class="silence" [ngStyle]="color"></div>
     <article>
-        <p><mat-icon matTooltip="🎨{{color | json}}"> low_priority</mat-icon></p>
+        <p><mat-icon #tooltip=matTooltip (click)="tooltip.show()" matTooltip="🎨{{color | json}}"> low_priority</mat-icon></p>
       
     </article>
 </section>

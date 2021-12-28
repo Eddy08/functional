@@ -1,6 +1,9 @@
-<neglect></neglect>
-<div class="list">
-    <div *ngFor="let number of arr" class="surround">
+
+    <cdk-virtual-scroll-viewport itemSize="200" class="list">
+        <neglect></neglect>
+        <div class="surround">
+    <div *cdkVirtualFor="let number of arr">
         <waste [color]="getColor()"></waste>    
     </div>
 </div>
+</cdk-virtual-scroll-viewport>

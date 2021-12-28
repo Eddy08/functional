@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import {ScrollingModule} from '@angular/cdk/scrolling'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ConsumeComponent } from './consume/consume.component';
@@ -49,6 +49,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     WasteComponent
   ],
   imports: [
+    ScrollingModule,
     MatCheckboxModule,
     MatCheckboxModule,
     MatButtonModule,

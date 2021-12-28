@@ -8,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class ConsumeComponent implements OnInit {
 
   constructor() { }
-  arr=[...Array(10000).keys()]
+  arr=[...Array(10000000).keys()]
 
   ngOnInit(): void {
+
+
   }
   getColor(){
     let randomColor="rgba("+Math.floor(Math.random()*255)+","+Math.ceil(Math.random()*255)+","+Math.floor(Math.random()*255)+")";
