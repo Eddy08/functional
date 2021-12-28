@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ConsumeComponent implements OnInit {
 
   constructor() { }
-  arr=[...Array(4294967290).keys()]
+  arr=[...Array(100000).keys()]
 
   ngOnInit(): void {
   }
